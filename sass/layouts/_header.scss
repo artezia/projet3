@@ -1,0 +1,6 @@
+.nav {
+    @include flexrow;
+}
+.nav_arrow {
+    display: none;
+}

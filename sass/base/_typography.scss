@@ -1,0 +1,39 @@
+html {
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: $color-text1;
+}
+
+.paragraphe1 {
+    color: $color-text1;
+    font-weight: bold;
+}
+.paragraphe2 {
+    color: $color-text2;
+    font-size: 14px;
+}
+.policelogo {
+    font-family: 'Shrikhand';
+    font-size:36px;
+    &_titres {
+    font-family: 'Shrikhand';
+    font-size:24px; 
+    }
+    &_footer {
+        font-family: 'Shrikhand';
+        font-size:20px;
+    }
+}
