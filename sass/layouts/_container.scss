@@ -37,21 +37,19 @@
 }
 .iconehover1 {
     display: inline;
-    line-height: 1em;
     &:hover {
         display: none;
-        line-height: 1em;
+        line-height: 200%;
     }
 }
 .iconehover2 {
     display: inline;
-    line-height: 1em;
     &:hover {
     outline: none;
     color: transparent;
     background-clip: text;
     background-image: $gradient;
-    line-height: 1em;
+    line-height: 200%;
     }
 }
 #reserver {
@@ -60,7 +58,7 @@
 .imageRestaurant {
     object-fit : cover;
     width: 100%;
-    height: 100px;
+    height: 180px;
     border-radius: 25px 25px 0 0;
 }
 .texteRestaurant {
@@ -74,11 +72,14 @@
 .labelRestaurant {
     position: relative;
     }
-.labelRestaurant span {
+.nouveau {
     background-color: $color-tertiary;
     color: #008665;
+    @include flexrow;
     width: 100px;
     position: absolute;
     right: 15px;
-    top: -70px; 
+    top: 10px; 
+    height: 30px;
+    font-weight: bold;
 }

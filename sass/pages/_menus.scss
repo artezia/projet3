@@ -1,0 +1,88 @@
+.nav {
+    width: 100%;
+    position: relative;
+}
+.nav_arrow_on {
+    position: absolute;
+    top: 50px; left: 20px;
+}
+.carte_restaurant {
+    width: 100%;
+}
+.photo_restaurant {
+    object-fit : cover;
+    height: 300px;
+    width: 100%;
+}
+.menu {
+    background-color: $color-background;
+    width: 100%;
+    height: auto;
+    border-radius: 35px 35px 0 0;
+    @include flexcolumn;
+    margin-top: -100px;
+    position: relative;
+}
+.nom_restaurant {
+    @include flexrow;
+    width: 90%;
+    justify-content: space-between;
+    margin: 20px 15px 20px 15px;
+}
+.container_entrees, .container_plats, .container_desserts {
+    width: 100%;
+    &_list {
+    @include flexcolumn;
+    }
+}
+
+.underline {
+    margin: 0 0 30px 10px;
+    text-transform: uppercase;
+    color: $color-text2;
+    position: relative;
+    &:after {
+    content: "";
+    position: absolute;
+    background-color: $color-tertiary;
+    width: 35px;
+    height : 4px;
+    bottom: -15px;
+    left: 0px;
+    }
+}
+
+.btn_menu {
+    background-color: $color-text3;
+    border-radius: 20px;
+    width: 94%;
+    height: 80px;
+    @include flexrow;
+    text-align: left;
+    align-items: flex-end;
+    margin-bottom: 15px;
+    &_intitule {
+        padding-left: 10px;
+        width: 80%;
+        line-height: 14px;
+        }
+    &_tarif {
+        width: 10%;
+        font-size: 14px;
+        font-weight: bold;
+        color: $color-text2;
+    }
+    &_hover {
+        color: $color-text3;
+        @include flexrow;
+        background-color: $color-tertiary;
+        border-radius: 0 20px 20px 0;
+        width: 0%;
+        height: 100%;
+        }   
+}
+.commander {
+    margin-top: 20px;
+    text-align: center;
+}
+

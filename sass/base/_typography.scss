@@ -3,10 +3,10 @@ html {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 25px;
 }
 h2 {
-    font-size: 20px;
+    font-size: 24px;
 }
 h3 {
     font-size: 18px;
@@ -15,6 +15,13 @@ h3 {
 a {
     text-decoration: none;
     color: $color-text1;
+}
+.liens-footer {
+    text-decoration: none;
+    color: $color-text3;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .paragraphe1 {

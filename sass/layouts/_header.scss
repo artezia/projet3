@@ -3,4 +3,7 @@
 }
 .nav_arrow {
     display: none;
+    &_on {
+        display: inline;
+    }
 }
