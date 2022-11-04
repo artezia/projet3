@@ -15,7 +15,6 @@
         @include flexrow;
         flex-wrap: wrap;
     }
-
     .btn_fonctionnement {
         margin-right: 30px;
         margin-left: 30px;
@@ -24,8 +23,15 @@
     .container_restaurants_list {
         @include flexrow;
         flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
+            width: 100%;
+        }
+    .container_restaurants_list_overview {
+        width: 340px;
+        margin: 10px;
+    }
+    .photo_restaurant {
+        height: 400px;
+    
     }
     .footer {
         @include flexrow;
@@ -34,7 +40,6 @@
     .container_footer {
         padding-left: 0px;
     }
-
     .policelogo_footer {
         text-align: center;
         font-size: 28px;
@@ -51,5 +56,9 @@
     }
     .photo_restaurant {
         height: 500px;
+    }
+    .container_restaurants_list_overview {
+        width: 550px;
+        margin: 20px;
     }
 }
