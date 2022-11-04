@@ -15,20 +15,18 @@
         @include flexrow;
         flex-wrap: wrap;
     }
-    .container_restaurants_list {
-        @include flexrow;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .container_restaurants_overview {
-        margin: 20px;
-        }
+
     .btn_fonctionnement {
         margin-right: 30px;
         margin-left: 30px;
         width: 300px;
     }
-
+    .container_restaurants_list {
+        @include flexrow;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
     .footer {
         @include flexrow;
         justify-content: space-around;
@@ -41,5 +39,17 @@
         text-align: center;
         font-size: 28px;
     }
+    .menu_responsive {
+        width: 95%;
+        }
 }
     
+@media screen and (min-width:992px){    
+    .menu_responsive {
+    @include flexrow;
+    width: 95%;
+    }
+    .photo_restaurant {
+        height: 500px;
+    }
+}
