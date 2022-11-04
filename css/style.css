@@ -161,6 +161,10 @@ a {
   padding: 15px;
 }
 
+.menu_responsive {
+  width: 95%;
+}
+
 .container_fonctionnement_list {
   display: flex;
   flex-direction: column;
@@ -424,6 +428,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    align-items: flex-start;
     width: 95%;
   }
   .photo_restaurant {

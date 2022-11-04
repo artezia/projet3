@@ -41,12 +41,12 @@
     }
     .menu_responsive {
         width: 95%;
-        }
+    }
 }
-    
 @media screen and (min-width:992px){    
     .menu_responsive {
     @include flexrow;
+    align-items: flex-start;
     width: 95%;
     }
     .photo_restaurant {
