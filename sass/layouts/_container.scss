@@ -40,23 +40,6 @@
         }
     }
 }
-.iconehover1 {
-    display: inline;
-    &:hover {
-        display: none;
-        line-height: 200%;
-    }
-}
-.iconehover2 {
-    display: inline;
-    &:hover {
-    outline: none;
-    color: transparent;
-    background-clip: text;
-    background-image: $gradient;
-    line-height: 200%;
-    }
-}
 #reserver {
     text-align: center;
 }
