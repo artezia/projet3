@@ -469,7 +469,7 @@ a {
   }
 }
 .ohmyfood {
-  background-image: #fff;
+  background-color: #fff;
   animation: flash 1s linear infinite;
 }
 
@@ -503,13 +503,13 @@ a {
 }
 @keyframes fa-utensils {
   0% {
-    transform: scale(350%);
+    transform: scale(3.5);
   }
   50% {
-    transform: scale(200%);
+    transform: scale(2);
   }
   100% {
-    transform: scale(350%);
+    transform: scale(3.5);
   }
 }
 
