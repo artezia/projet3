@@ -44,11 +44,13 @@ a {
 .paragraphe1 {
   color: #000;
   font-weight: bold;
+  line-height: 14pt;
 }
 
 .paragraphe2 {
   color: #494949;
   font-size: 14px;
+  line-height: 14px;
 }
 
 .policelogo {
@@ -543,17 +545,119 @@ a {
 }
 
 .iconehover2 {
-  animation: pulse-heart 1.5s ease-in-out infinite alternate;
+  animation: pulseHeart 1.5s ease-in-out infinite alternate;
 }
-@keyframes pulse-heart {
+
+@keyframes pulseHeart {
   0% {
-    transform: scale(100%);
+    transform: scale(1);
   }
   50% {
-    transform: scale(60%);
+    transform: scale(0.6);
   }
   100% {
-    transform: scale(100%);
+    transform: scale(1);
+  }
+}
+.btn_menu:hover .btn_menu_hover {
+  width: 20%;
+  transform: scaleX(0);
+  animation-name: buttonGrow;
+  animation-duration: 600ms;
+  transform-origin: right;
+  animation-fill-mode: forwards;
+}
+
+@keyframes buttonGrow {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+.btn_menu:hover .btn_menu_tarif {
+  text-align: center;
+  width: 20%;
+}
+
+.btn_menu:hover .btn_menu_intitule {
+  margin-right: 0px;
+}
+
+.btn_menu:hover .btn_menu_hover {
+  display: inline;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_menu:hover .btn_validation {
+  animation: rotation 600ms ease-out forwards;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(-1turn);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.btn_menu {
+  width: 94%;
+}
+.btn_menu:hover {
+  cursor: pointer;
+}
+
+.btn_menu_tarif {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_menu_hover {
+  display: none;
+}
+
+.paragraphe1, .paragraphe2 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.btn_menu_intitule {
+  width: 60%;
+}
+
+.btn_menu {
+  opacity: 0;
+  animation: introMenu 4s forwards;
+}
+.btn_menu:nth-child(1) {
+  animation-delay: 1000ms;
+}
+.btn_menu:nth-child(2) {
+  animation-delay: 2000ms;
+}
+.btn_menu:nth-child(3) {
+  animation-delay: 3000ms;
+}
+.btn_menu:nth-child(4) {
+  animation-delay: 4000ms;
+}
+
+@keyframes introMenu {
+  0% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
   }
 }
 
