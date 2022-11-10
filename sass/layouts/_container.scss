@@ -1,7 +1,6 @@
 .container {
     background-color: $color-background;
     &_villes {
-    gap: 10px;
     background-color: #dcdcdc;
     padding: 3%;
     @include flexrow;
@@ -10,7 +9,10 @@
     padding: 20px;
     background-color: $color-background;
     @include flexcolumn;
-    }
+    } 
+}
+.fa-location-dot {
+    padding-right: 10px;
 }
 .container_fonctionnement {
     background-color: $color-text3;
