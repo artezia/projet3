@@ -11,6 +11,28 @@
     .policelogo {
         font-size:46px;
     }
+    .container_villes {
+        height: 50px;
+        padding: 0px;
+    }
+    .container_reserver {
+        object-fit : cover;
+        background-image: url("/images/restaurants/restaurant.jpg");
+        height: 400px;
+    }
+    .titre_reserver {
+    color: $color-text3;
+    background-color: $color-text1;
+    font-size: 34px;
+    }
+    
+    .texte_reserver {
+    color: $color-text3;
+    font-size: 18px;
+    text-shadow: 2px 1px 1px $color-text1;
+    line-height: normal;
+    }
+
     .container_fonctionnement_list {
         @include flexrow;
         flex-wrap: wrap;
