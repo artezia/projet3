@@ -452,6 +452,7 @@ a {
     background-image: url("../images/restaurants/restaurant-responsive.jpg");
     border-radius: 0 0 25px 25px;
     background-size: 100% 450px;
+    height: 400px;
   }
   .menu_responsive {
     display: flex;
