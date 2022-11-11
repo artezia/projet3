@@ -2,27 +2,25 @@
     position: relative;
 }
 .iconehover1 {
+    color: $color-text1;
     position: absolute;
     right: 0; bottom: 0;
     z-index: 1;
-    display: inline;
-    background: white;
+    line-height: 26px;
+    background-color: $color-text3;
     &:hover {
-        opacity:0;
+        opacity: 0;
     }
 }
 .iconehover2 {
+    background: -webkit-linear-gradient(#9356DC, #FF79DA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     position: absolute;
-    right: 0; bottom: -6px;
+    right: 0px; bottom: 0;
     z-index: 0;
-    color: transparent;
-    background-clip: text;
-    background-image: $background-gradient;
-    line-height: 200%;
-    outline: none;
-    &:hover {
-        display: inline;
-    }
+    opacity: 1;
+    line-height: 26px;
 }
 .iconehover2 {
     animation: pulseHeart 1.5s ease-in-out infinite alternate;

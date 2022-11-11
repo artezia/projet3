@@ -553,30 +553,28 @@ a {
 }
 
 .iconehover1 {
+  color: #000;
   position: absolute;
   right: 0;
   bottom: 0;
   z-index: 1;
-  display: inline;
-  background: white;
+  line-height: 26px;
+  background-color: #fff;
 }
 .iconehover1:hover {
   opacity: 0;
 }
 
 .iconehover2 {
+  background: -webkit-linear-gradient(#9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: absolute;
-  right: 0;
-  bottom: -6px;
+  right: 0px;
+  bottom: 0;
   z-index: 0;
-  color: transparent;
-  background-clip: text;
-  background-image: linear-gradient(to bottom, #9356DC, #FF79DA);
-  line-height: 200%;
-  outline: none;
-}
-.iconehover2:hover {
-  display: inline;
+  opacity: 1;
+  line-height: 26px;
 }
 
 .iconehover2 {
