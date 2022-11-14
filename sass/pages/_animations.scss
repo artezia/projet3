@@ -12,6 +12,17 @@
         opacity: 0;
     }
 }
+.iconehover1_menu {
+    color: $color-text1;
+    position: absolute;
+    right: 0; bottom: 0;
+    z-index: 1;
+    line-height: 26px;
+    background-color: $color-background;
+    &:hover {
+        opacity: 0;
+    }
+}
 .iconehover2 {
     background: -webkit-linear-gradient(#9356DC, #FF79DA);
     -webkit-background-clip: text;
