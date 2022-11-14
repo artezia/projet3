@@ -84,9 +84,9 @@
 .btn_menu_hover {
     display: none;
 }
-.paragraphe1, .paragraphe2 {
+.paragraphe_menu {
     text-overflow: ellipsis;
-    white-space: normal;
+    white-space: nowrap;
     overflow: hidden;
 }
 .btn_menu_intitule {
