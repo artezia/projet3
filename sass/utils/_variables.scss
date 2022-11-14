@@ -7,4 +7,4 @@ $color-text3: #fff;
 $color-background: #ebebeb;
 $color-background2: #353535;
 $background-gradient : linear-gradient(to bottom, $color-primary, $color-secondary);
-$background-gradient2 : linear-gradient(to bottom, $color-secondary, $color-primary);
+$background-gradient2 : linear-gradient(to bottom, lighten($color-primary, 8%), lighten($color-secondary, 8%));

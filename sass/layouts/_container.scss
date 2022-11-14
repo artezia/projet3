@@ -67,7 +67,7 @@
     }
 .nouveau {
     background-color: $color-tertiary;
-    color: #008665;
+    color: darken($color-tertiary, 30%);
     @include flexrow;
     width: 100px;
     position: absolute;
