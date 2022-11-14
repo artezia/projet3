@@ -659,7 +659,7 @@ a {
 
 .paragraphe1, .paragraphe2 {
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: wrap;
   overflow: hidden;
 }
 

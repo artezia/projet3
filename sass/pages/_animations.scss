@@ -85,9 +85,9 @@
     display: none;
 }
 .paragraphe1, .paragraphe2 {
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    overflow: hidden;
 }
 .btn_menu_intitule {
     width: 60%;
