@@ -98,6 +98,10 @@ a {
   background-color: #f2eafb;
 }
 
+.btn_fonctionnement:hover .fonctionnement_icone {
+  color: #9356DC;
+}
+
 .fonctionnement_chiffre {
   background: #9356DC;
   color: #fff;
