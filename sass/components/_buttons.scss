@@ -1,26 +1,25 @@
 .btn {
+    @include ombre_bouton;
     width: 260px;
     height: 15px;
-    background: $background-gradient;
-    color: #FFFFFF;
     border-radius: 25px;
     padding : 15px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin-bottom: 30px;
+    background: $background-gradient;
+    color: #FFFFFF;
     &:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background: $background-gradient2;
+        background: $background-gradient2;
     }
 }
 .btn_fonctionnement {
     @include flexrow;
+    @include ombre_bouton;
     justify-content:flex-start;
     background: $color-background;
     margin-bottom: 20px;
     border-radius: 20px;
     width: 280px;
     height: 70px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         &:hover{
         background-color: lighten($color-primary, 35%);
     }

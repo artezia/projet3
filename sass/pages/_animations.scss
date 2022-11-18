@@ -18,7 +18,7 @@
     opacity: 0;
     line-height: 26px;
     transform: scale(1);
-    transition: all 0.2s ease-in-out;
+    transition: 200ms ease-in-out;
 }
 .iconehover2:hover {
     opacity: 1;
